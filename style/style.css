@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    background-color: #C4C4C4;
+    padding: 64px 38px;
+}
+header nav ul{
+    width: 546px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul a{
+    color: #000000;
+    font-size: 18px;
+}
+.indexarticle{
+    width: 33%;
+    background-color: #FF9900;
+    border-radius: 30px 30px 0 0;
+    overflow: hidden;
+}
+
+.indexarticle div{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+.indexarticle div img{
+    width: 100%;
+}
+.indexarticle h2{
+    font-size: 18px;
+}
+.indexarticle section{
+    padding: 14px 68px 12px 12px;
+}
+.indexarticle section p:nth-child(2){
+    margin: 14px 0;
+    height: 80px;
+    overflow: hidden;
+}
+.indexarticle section p a{
+    color: rgba(0, 0, 0, 0.8);
+}
+.articlecontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 36px 48px 34px;
+}
+footer{
+    padding: 48px 0 30px 38px;
+}
+/* /////// */
+/* innerpage styles */
+/* START */
+/* ////////// */
+.saqturqmain{
+    padding: 14px 34px 46px 38px;
+}
+.goback{
+    margin-left: 8px;
+}
+.goback a{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.innerarticle{
+    background-color: #FF9900;
+    padding-top: 56px;
+    padding-bottom: 50px;
+}
+.innerarticle h2{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.innerarticle p{
+    font-size: 16px;
+    padding: 0 20px 0 10px;
+}
+.innerarticle p span{
+    display: block;
+    margin: 10px 0;
+    text-indent: 20px;
+}
+.imageparent{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 36px;
+}
+.innerimage{
+    width: 33.33%;
+    height: 300px;
+    overflow: hidden;
+}
+.innerimage img{
+    width: 100%;
+    filter: grayscale();
+    transition: 0.5s;
+}
+.innerimage img:hover{
+    filter: none;
+    transform: scale(1.2);
+}
+.limoni{
+    background-color: #FFC700;
+}
+.fortoxali{
+    background-color: #FFE600;
+}
